@@ -11,9 +11,6 @@ print(-525, -357) #int
 print(-125, -380) #int
 print(0) #int
 
-
-
-
 # float -> Numero com ponto flutuante
 # O tipo float representa qualquer numero
 # positivo ou negativo com ponto flutuante. 
