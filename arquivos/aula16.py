@@ -1,15 +1,13 @@
 # if / elif     /else
 # se / se não se/ se não
 
-entrada = input ("Voce deseja 'entrar' ou 'sair' do sistema?")
+entrada = input ("Voce deseja 'entrar' ou 'sair' do sistema? " )
 
-if entrada == "entrar":
-    print("Voce acabou de entrar no sistema")
-    print("Aguarde, enquanto o sistema esta carregando")
-
-elif entrada == "sair":
-    print("Voce acabou de sair do sistema")
-    print("Aguarde, enquanto o sistema é encerrado")
-
+if entrada == 'entrar':
+    print("voce entrou no sistema")
+    print("Por gentileza, aguarde enquanto o sistema esta sendo inicializado")
+elif entrada == 'sair':
+    print("Voce digitou sair do sistema")
+    print("Por favor, aguarde enquanto o sistema é encerrado")
 else:
-    print("Voce não digitou nada ate o momento")
+    print("Voce não digitou nada até o momento")
