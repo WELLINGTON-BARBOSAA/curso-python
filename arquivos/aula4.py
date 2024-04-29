@@ -20,9 +20,6 @@ print(5.3, 8.9) #float
 print(80.000, 11.15) # float
 
 # A função type mostra o tipo que o Python
-# inferiu ao valor
+# inseriu ao valor
 print(type('Wellington'))
-print(type(10))
-print(type(-14))
-print(type(8.5), type(8.7), type(80))
-print(type(8.5))
+print(type('80.0'))
