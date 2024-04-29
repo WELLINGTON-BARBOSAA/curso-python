@@ -9,4 +9,6 @@ ex: print(123456) esse comando serve para mostrar o que seraá exibido no termin
 # COMO USAR COMENTARIO DURANTE O PROCESSO, QUE SÓ SERVE PARA UMA LINHA
 print(123) #ESCREVER A FRENTE DO TEXTO
 # ABAIXO 'APESAR DE NÃO SER RECOMENDADO USAR UM COMENTARIO ABAIXO DO COoMANDO'
-print(456) 
+print(456)
+print(789)
+print(10,11,12)
