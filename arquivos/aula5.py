@@ -14,7 +14,10 @@ print(type(False))
 
 print(type(10 == 10))
 print(type(11 == 14))
+print(type(80))
 
+
+print(15 == 14)
 print(10.04 == 10.04)
 print(-44 == 44)
 print(-44 == -44) 
