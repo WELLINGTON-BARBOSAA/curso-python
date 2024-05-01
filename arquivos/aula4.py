@@ -22,4 +22,4 @@ print(80.000, 11.15) # float
 # A função type mostra o tipo que o Python
 # inseriu ao valor
 print(type('Wellington'))
-print(type('80.0'))
+print(type(80.0))
