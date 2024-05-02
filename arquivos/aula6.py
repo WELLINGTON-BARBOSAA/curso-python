@@ -25,5 +25,6 @@ print(bool(""))
 print(bool("  "))
 print(str(11) + 'b')
 print(str(354) + "u")
+print(str(8) + "b")
 
 "Ctrl + Shift + A = transformar um comando em comentario"
