@@ -1,14 +1,19 @@
 nome = "Wellington"
 sobrenome = "Gomes de Sousa Barbosa"
-idade = 29
-data_nasci = "15/03/1995"
-altura_metros = 1.70
+data_nasc = "15/03/1995"
+idade = 29 
+altura = 1.70
+local_nasc = "São Paulo - SP"
+sexo = "Masculino"
+endereço = "São João do Piauí"
 maior_idade = idade >= 18
 
-print("Qual é o seu nome:", nome)
-print("Qual é seu sobrenome: ", sobrenome)
-print("Qual é sua idade? ", idade)
-print("Qual sua data de nascimento? ", data_nasci)
-print("Qual é sua altura? ", altura_metros)
-print("Wellington é maior de idade? ", maior_idade)
-
+print("Nome:", nome)
+print("Sobrenome:", sobrenome)
+print("Data de nascimento:", data_nasc)
+print("Idade:", idade)
+print("Altura:", altura)
+print("Local de nascimento:", local_nasc)
+print("Sexo:", sexo)
+print("Endereço:", endereço)
+print("Você é maior de idade:", maior_idade)
