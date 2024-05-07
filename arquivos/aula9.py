@@ -1,24 +1,30 @@
-adicao = 10 + 10 
-print("adição", adicao)
+adição = 250 + 250
+print("Adição é:", adição)
 
-subtracao = 10 - 5
-print("Subtração", subtracao)
+subtração = 150 -100
+print("A subtração é: ", subtração)
 
-multiplicacao = 2 * 2
-print("Multiplicação", multiplicacao)
+multiplicação = 50 * 2
+print("A multiplicação é: ", multiplicação)
 
-divisao = 10 / 2
+
+divisao = 10 / 3
 print("divisão", divisao)
-# Na divisão sempre o resultado vai ser float
+# Na maioria das vezes o resultado vai ser float
 
-divisao_inteira = 10 // 2
-print("Divisão inteira", divisao_inteira)
+divisao_inteira = 10 // 3
+print("Divisão inteira", divisao_inteira) # Essa divisão exclui as casas decimais
 
+exponenciação = 5 ** 10
+print("O resultado é:", exponenciação)
+ 
 modulo = 13 % 4
-print('modulo', modulo) #resto da divisão
+print('modulo', modulo) # modulos mostra o resto da divisão
 
 print(10%3 == 0)
 print(10%2 == 0)
 print(10%5 == 0)
 print(10%4 == 0)
+
+print(5 + 5 == 10)
 
