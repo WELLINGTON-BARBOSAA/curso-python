@@ -13,5 +13,5 @@ print(G_3_vezes)
 concatenação = 'Wellington ' + ' Gomes ' + 'de ' + 'Sousa ' + 'Barbosa '
 print(concatenação)
 
-Wellington_5_vezes = " Wellington " * 5
-print(Wellington_5_vezes)
+Wellington_5_vezes = " Wellington " * 7
+print(Wellington_5_vezes) 
