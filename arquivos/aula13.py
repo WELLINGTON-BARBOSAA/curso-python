@@ -16,17 +16,21 @@
 # print(linha_3)
 
 
-
-nome = "Wellington"
+nome = 'Wellington Gomes de Sousa Barbosa'
+idade = 29
 peso = 71
 altura = 1.70
 imc = peso / altura ** 2
 
-linha_1 = f'Seu nome é {nome}, e tem de altura {altura:.2f}'
-linha_2 = f'Tem um peso de {peso}'
-linha_3 = f'seu imc é de {imc:.2f}'
+linha_1 = f'Seu nome é:{nome}'
+linha_2 = f'Sua idade é: {idade}'
+linha_3 = f'Seu peso é:{peso}'
+linha_4 = f'Sua altura é: {altura:.2f}'
+linha_5 = f'seu imc é de: {imc:.2f}'
 
 print(linha_1)
 print(linha_2)
 print(linha_3)
+print(linha_4)
+print(linha_5)
 
