@@ -15,4 +15,4 @@ print(formato)
 # Acima vimos que dentro da função format existem 3 valores a serem executados
 # Mas quando se chama um chave que não se tem valores aparece esse erro
 # Replacement index 3 out of range for positional args tuple
-# Quando fala sobre of range, significa que esta tentando chamar algo que já acabou
+# Quando fala sobre of range, significa que esta tentando chamar algo que já acabou.
