@@ -1,7 +1,7 @@
 # if / elif     /else
 # se / se não se/ se não
 
-entrada = input("Voce deseja 'entrar' ou 'sair' do sistema?: ")
+entrada = input('Voce deseja "entrar" ou "sair" do sistema?: ')
 
 if entrada == "entrar":
     print("Você entrou no sistema, aguarde enquanto o sitema esta sendo inicializado")
