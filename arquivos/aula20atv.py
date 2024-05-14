@@ -1,14 +1,16 @@
-primeiro_numero = input('Digite um numero: ')
-segundo_numero = input('Digite outro numero: ')
 
-if  primeiro_numero >= segundo_numero:  
-    print("O primeiro numero é maior que o segundo")
-elif primeiro_numero <= segundo_numero: 
+
+primeiro_numero = input("Digite o primeiro numero: ")
+segundo_numero = input("Digit o segundo numero:")
+
+if  primeiro_numero >= segundo_numero: 
+    print("O primeiro numero é maior que segundo: ")
+
+elif  primeiro_numero <= segundo_numero:
     print("O primeiro numero é menor que o segundo")
+
 else:
-    print("Voce não digitou nada até o momento")
-
-
+    print("Voce não digitou nada, tente novamente")
 
 
 # Objetivo: Mostrar se o numero foi maior primeiro
