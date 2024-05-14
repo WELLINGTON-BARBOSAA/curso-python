@@ -9,9 +9,9 @@ vai passando até o outro IF existente no codigo"""
 
 condição1 = False
 condição2 = False
-condição3 = True
+condição3 = False
 condição4 = False
-condição5 = False
+condição5 = True
 
 if condição1:
     print("Condição 1 é falsa")
