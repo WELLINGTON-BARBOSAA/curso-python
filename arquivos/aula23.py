@@ -4,13 +4,9 @@
 # not False = True
 
 
-# comida = input("Qual é a melhor comida do mundo: ")
+comida = input("Qual é a melhor comida do mundo: ")
 
-# if not comida == "Brigadeiro":
-#     print("você acertou")
-# else:
-#     print('Voce errou')
-
-senha = input ("Digite a senha")
-senha == "123456"
-print = senha
+if not comida == "Brigadeiro":
+    print("você acertou")
+else:
+    print('Voce errou')
