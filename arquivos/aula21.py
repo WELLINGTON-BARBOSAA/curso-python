@@ -9,13 +9,14 @@
 # usado para respresentar um não valor
 
 entrada = input ("[E]ntrar ou [S]air: ")
-senha_digitada = input ('Senha do usuario:')
+senha_usuario = input ("Senha: ")
 senha_permitida = '741Samsung'
 
-if entrada == 'E' and senha_digitada == senha_permitida:
-    print("Você acabou de entrar no sistema")
+if entrada == 'E' and senha_usuario == senha_permitida:
+    print("Entrou no sistema, parabéns")
+
 else:
-    print ('Você saiu do sistema')
+    print("Saiu do sistema")
 
 
 
