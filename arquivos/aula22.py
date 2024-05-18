@@ -10,7 +10,7 @@
 
 # ESTA AULA FALA SOBRE OR
 
-entrada = input ("Para Entrar digite [E] e para sair digite [S]")
+entrada = input ("Para Entrar digite [E] e para sair digite [S]: ")
 senha_usuario = input("Digite sua senha:")
 senha_permitida = "7411"
 
