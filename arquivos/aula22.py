@@ -10,14 +10,14 @@
 
 # ESTA AULA FALA SOBRE OR
 
-entrada = input("Para entrar digite [E] ou [S] para sair do sistema: ")
-senha_usuario = input ("Digite sua senha: ")
+entrada = input ("Para Entrar digite [E] e para sair digite [S]")
+senha_usuario = input("Digite sua senha:")
 senha_permitida = "7411"
 
 if entrada == 'E' and entrada == 'e' or senha_usuario == senha_permitida:
     print("voce entrou no sistema")
 else:
-    print("saiu do sistema")
+    print("Voce saiu do sistema")
 
 # senha = input ("senha: ") or 'não digitou a senha'
 # print(senha)
