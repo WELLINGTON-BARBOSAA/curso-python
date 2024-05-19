@@ -19,10 +19,11 @@ nome = 'Wellington'
 # o que era false se torna true 
 # e o que era True vira False
 
-nome = input('Digite seu nome: ')
-encontrar = input ("O que deseja encontrar?: ")
+nome = input("Digite o seu nome: ")
+encontrar = input ('O que vc deseja encontrar: ')
 
 if encontrar in nome:
-    print (f"{encontrar} tem em {nome} ")
+    print(f'{encontrar} esta em {nome}')
 else:
-    print (f"{encontrar} não tem em {nome}")
+    print(f'{encontrar} não está em {nome}')
+
