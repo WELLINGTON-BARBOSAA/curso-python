@@ -13,9 +13,6 @@ print(variavel[0:7:2])
 # que existe e 2 a quantidade de pulos que vai acontecer
 # 
 
-
-
-
 # nome = "Wellington Gomes de Sousa Barbosa"
 # resultado = len(nome)
 # print(f"O tamanho em str do seu nome completo é {resultado}")
