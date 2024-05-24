@@ -33,7 +33,7 @@
 # else:
 #     print("Voce deixou campos vazios") 
 
-# EXERCICIO RESOLVIDO PELO LUIZ OTÁVIO 
+# EXERCICIO RESOLVIDO PELO LUIZ OTÁVIO e WELLINGTON <3
 
 nome =input("Digite seu nome: ")
 idade =input("Digite sua idade: ")
