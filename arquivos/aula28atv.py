@@ -35,22 +35,22 @@
 
 # EXERCICIO RESOLVIDO PELO LUIZ OTÁVIO e WELLINGTON <3
 
-nome =input("Digite seu nome: ")
-idade =input("Digite sua idade: ")
+nome = input("Digite seu nome completo: ")
+idade = input("Digite sua idade: ")
 
 if nome and idade:
-    print(f'Seu nome é {nome}')
-    print(f'Sua idade é {idade}')
-    print(f'Seu nome invertido é {nome[::-1]}')
+    print(f'Seu nome completo é: {nome}')
+    print(f'Sua idade é: {idade}')
+    print(f'Seu nome invertido é: {nome[::-1]}')
 
-    if ' ' in nome:
-        print("Seu nome TEM ESPAÇOS")
+    if " " in nome:
+        print("Seu nome completo TEM espaço")
+
     else:
-        print('Seu nome NÃO tem espaço')
-    
-    print(f"Seu nome tem {len(nome)} letras")
-    print(f"A primeira letra do seu nome é: {nome[0]} ")
-    print(f"A ultima letra do seu nome é: {nome[-1]}")
+        print('Seu nome completo NÃO espaço')
 
+    print(f'Seu nome tem {len(nome)} letras')
+    print(f'A primeira letra do seu nome: {nome[0]}')
+    print(f'A ultima letra do seu nome é:{nome[-1]} ')
 else:
-    print('Voce deixou campos vazios')
+    print('Você deixou campos vazios')
