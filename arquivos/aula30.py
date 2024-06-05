@@ -6,19 +6,26 @@ Muitas condições no mesmo if (ruim)
 # DICA - Ao escrever o codigo e ele ficar muito extenso como estou escrevendo aqui, basta 
 # usar \ para quebrar o codigo e dar 
 # Continuidade a escrita do código
-velocidade = 61    # velocidade atual do carro
-local_carro = 98 # local onde o carro está na estrada
+velocidade = 62    # velocidade atual do carro
+local_carro = 90 # local onde o carro está na estrada
 
 RADAR_1 = 60 # velocidade máxima do radar 1
 LOCAL_1_BR = 100 # local onde o radar 1 está
 RADAR_RANGE = 1 # A distância onde o radar pega
 
-if velocidade > RADAR_1:
-    print('Velocidade carro passou radar1')
+velocidade_passou_radar1 = velocidade > RADAR_1
+carro_passou = LOCAL_1_BR >= (RADAR_RANGE - local_carro) and \
+    LOCAL_1_BR <= (RADAR_RANGE + local_carro)
+carro_multado = carro_passou and velocidade_passou_radar1
 
-if local_carro >= (LOCAL_1_BR - RADAR_RANGE) and local_carro <= (LOCAL_1_BR + RADAR_RANGE)and \
-   velocidade > RADAR_1:
-    print('Carro passou em radar1')
+if velocidade_passou_radar1:
+    print('Carro passou no radar')
+
+if carro_passou:
+    print('Carro passou')
+
+if  carro_passou and velocidade_passou_radar1:
+    print("Carro multado em radar 1")
 
 
 
