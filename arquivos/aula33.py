@@ -14,4 +14,3 @@ print(string.capitalize())
 
 #Fatiamento = [4:0]de onde eu quero que comece
 #Fatiamento = [:4]de onde eu quero que termine
-
