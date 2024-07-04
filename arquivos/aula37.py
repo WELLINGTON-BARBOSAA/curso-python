@@ -22,7 +22,7 @@ while contador <= 100:
 
     print(contador)
 
-    if contador == 80:
+    if contador == 70:
         break
     
 print("Acabou")
