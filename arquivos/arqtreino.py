@@ -1,22 +1,65 @@
-nome = 'Eduarda'
-i = 0
-letra_por_letra = ''
-
-while i < len(nome):
-    letra_por_letra = nome [i]
-    letra_por_letra += f'*{letra_por_letra}*'
-    i += 1
-
-    print(letra_por_letra)
+print('Seja bem vindo a sua calculadora')
+print('Aqui você pode faze a sua conta')
+numero_1 = input('Digite um numero: ')
+numero_2 = input('Digite outro numero: ')
+operador = input('Digite seu operador: ')
 
 
-# nome = 'Welllington'  # Iteráveis
+num_1 = int(numero_1)
+num_2 = int(numero_2)
+operador_valido = '/*-+'
 
-# indice = 0
-# novo_nome = ''
-# while indice < len(nome):
-#     letra = nome [indice]
-#     novo_nome += f'*{letra}'
-#     indice += 1
+# if num_1 and num_2 == ' ':
+#     print('Voce não digitou nada')
 
-# print(novo_nome)
+if operador == '/':
+    print(num_1/num_2)
+if operador == '*':
+    print(num_1*num_2)
+if operador == '-':
+    print(num_1-num_2)
+if operador == '+':
+    print(num_1+num_2)
+
+
+
+
+print('Acabou a conta')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# if operador == '+':
+#     print(numero_valido1+numero_valido2)
+# if operador == '-':
+#     print(numero_valido1-numero_valido2)
+# if operador == '*':
+#     print(numero_valido1*numero_valido2)
+# if operador == '/':
+#     print(numero_valido1/numero_valido2)
+# else:
+#     print('Fim de conta')
+
+    
+
