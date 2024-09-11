@@ -1,40 +1,28 @@
+# Arquivo treino para ir fazendo o basico e não esquecer de como é importante sempre ter
+# contado com a programação e continuar seguindo atrás dos meu objetivos
+
 print('Seja bem vindo a sua calculadora')
-print('Aqui você pode faze a sua conta')
-numero_1 = input('Digite um numero: ')
-numero_2 = input('Digite outro numero: ')
-operador = input('Digite seu operador: ')
+print('Aqui voce pode fazer as 4 operações basicas')
 
+numero_1 = input('Digite seu primeiro numero: ')
+numero_2 = input('Digite o segundo numero: ')
+operaçao = input('Digite a operação desejada: ')
 
-num_1 = int(numero_1)
-num_2 = int(numero_2)
+num1 = int(numero_1)
+num2 = int(numero_2)
 operador_valido = '/*-+'
 
-# if num_1 and num_2 == ' ':
-#     print('Voce não digitou nada')
+if operaçao == '/':
+    print(num1/num2)
+if operaçao == '-':
+    print(num1-num2)
+if operaçao == '*':
+    print(num1*num2)
+if operaçao == '+':
+    print(num1+num2)
 
-if operador == '/':
-    print(num_1/num_2)
-if operador == '*':
-    print(num_1*num_2)
-if operador == '-':
-    print(num_1-num_2)
-if operador == '+':
-    print(num_1+num_2)
-
-
-
-
-print('Acabou a conta')
-
-
-
-
-
-
-
-
-
-
+else:
+    print('Calculadora encerrada')
 
 
 
