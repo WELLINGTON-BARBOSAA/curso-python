@@ -58,19 +58,17 @@ while True:
         print('Tipo sanguineo cadastrado')
 
 
-    if fumante.lower() in ['Sim', 'sim', 'nao', 'Não']:
+    if fumante.lower() in ['Sim', 'sim', 'nao', 'Não', 'não']:
         print('Informação valida')
     else:
         print('Responda apenas (Sim ou Não)')
 
-    if alergia_med.lower in ['Sim', 'sim', 'Não', 'não']:
+    if alergia_med.lower() in ['Sim', 'sim', 'Não', 'não', 'nao']:
         print('Informação valida')
     else:
         print('Responda (Sim ou Não)')
 
     print('Cadastro realizado com sucesso')
-
-    print('Cadastro finalizado com sucesso')
 
     sair = input('Deseja [s]air: ').lower().startswith('s')
     if sair is True:
