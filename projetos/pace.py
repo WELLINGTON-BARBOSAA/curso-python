@@ -13,14 +13,16 @@ print('Calculando seu pace')
 tempo = input('Insira seu tempo: ')
 distancia_km = input('Insira a distância: ')
 
-tempo_conv = int (tempo)
-distancia_km_conv = int (distancia_km)
+tempo_conv = float (tempo)
+distancia_km_conv = float (distancia_km)
 
 calculo_pace = tempo_conv/distancia_km_conv
-velocidade_media = distancia_km_conv/tempo_conv
 
-print(f'Seu pace é de : {calculo_pace} m/Km')
-print(f'E sua velocidade média é de: {velocidade_media:.2f} Km/m')
+tempo_em_horas = tempo_conv / 60
+velocidade_media = distancia_km_conv/tempo_em_horas
+
+print(f'Seu pace é de : {calculo_pace:.2f} min/Km')
+print(f'E sua velocidade média é de: {velocidade_media:.2f} Km/h')
 
 
 
