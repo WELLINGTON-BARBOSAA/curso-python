@@ -16,14 +16,6 @@ distancia_km = input('Insira a distância: ')
 tempo_conv = int (tempo)
 distancia_km_conv = int (distancia_km)
 
-if tempo_conv  is False:
-    print('Digite apenas numeros')
-    
-
-if distancia_km_conv is False:
-    print('Digite apenas numero')
-
-
 calculo_pace = tempo_conv/distancia_km_conv
 velocidade_media = distancia_km_conv/tempo_conv
 
