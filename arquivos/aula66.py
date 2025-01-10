@@ -6,19 +6,22 @@ Argumento não nomeado recebe apenas o argumento (valor)'''
 #     print(f'{x=} y={y}', '|', 'x + y = ', x + y)
 
 # soma(1, 2, 3)
-# soma(2, y= 14, z=1) # Argumentos nomeados é quando da uma atribuição ao argumento. Quando faz isso, é regra nomear todos a frente  
+# soma(2, y= 14, z=1) # Argumentos nomeados é quando da uma atribuição ao argumento. 
+# Quando faz isso, é regra nomear todos a frente  
 
 
 
-def calculadora (a, b, c):
-    print(f'O resultado da conta é: {a + b / c}' )
+# def conta (a, b, c):
+#     print(f'{a * b * c}')
 
-calculadora(1, 7, 8)
-calculadora(5, 10, 8)
-calculadora(1, 85, 8)
-calculadora(1, 30, 8)
-calculadora(1, 100, 8)
-calculadora(6, 7, 8)
-calculadora(250, 7, 8)
-calculadora(1, 300, 8)
-calculadora(1, 7, 800)
+# conta(1,8,9)
+# conta(10,8,9)
+# conta(1,88,9)
+# conta(1,8,93)
+# conta(1,85,9)
+
+def letras (x, y, z):
+    print(f'{x} {y} {z}', '|', 'x + y + z = ', x + y + z)
+
+letras(1,2,3)
+letras(4,5,8)
