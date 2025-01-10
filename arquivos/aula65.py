@@ -1,6 +1,6 @@
 """
 Introdução as funções (def) em Python
-Funções são trechos de codicos usar para 
+Funções são trechos de codicos usados para 
 replicar determinada ação ao longo do seu código.
 Elas podem receber valores para parametros (argumentos)
 e retornar um valor especifico. 
@@ -18,10 +18,13 @@ Por padrão, funções Python retorna None (nada) """
 # imprimir(16, 17, 18)
 # imprimir(19, 20, 21)
 
-def bem_vindo (nome):
-    print(f'Seja bem- vindo {nome}')
 
-bem_vindo('Wellington')
-bem_vindo('Fernanda')
-bem_vindo('Maria')
-bem_vindo('Antonia')
+def conta (a, b, c, d):
+    print(a * b * c + d)
+
+conta(1,1,1,1)
+conta(25,58,58,56)
+conta(5,8,7,10)
+conta(80,2,35,22)
+conta(55,65,8,11)
+
