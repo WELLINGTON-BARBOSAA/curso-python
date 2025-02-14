@@ -11,16 +11,28 @@
 # Imutáveis: str, int, float, bool, tuple
 # Mutável: dict, list
 
+'Criando um jogo'
 
-usuario = {
-    'Nome': 'Wellington',
-    'Sobrenome': 'Gomes de Sousa Barbosa',
-    'DatNasc': 15031995,
-    'Endereço': 'Morro Doce',
-    'CEP': 5267030,
-    'CPF': 50822250305,
-    'Nome da mae': 'Alaide Gomes de Sousa',
-    'Nome do pai': 'Valdemir Barbosa'
+personagem = {
+    'Nome': 'Arthur',
+    'Sobrenome': 'Morgan',
+    'DataNasc': '1983',
+    'Idade': 47,
+    'Altura': 1.80,
+    'Peso': 1.85,
+    'Endereços' : [
+        {'Cidade': 'Valentines', 'Logradouro': 'Zona Rural', 'Numero': 'S/N' },
+         {'Cidade': 'Sant Denis', 'Logradouro': 'Zona Rural', 'Numero': 'S/N' },
+         {'Cidade': 'Rhoades', 'Logradouro': 'Zona Rural', 'Numero': 'S/N'},
+    ],
+
 }
 
-print(usuario['Nome'])
+# print(personagem['Endereços'])
+# print(personagem['Peso'])
+# print(personagem['DataNasc'])
+# print(personagem['Sobrenome'])
+
+
+for chave in personagem:
+    print(chave, personagem[chave])
