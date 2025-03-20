@@ -27,9 +27,21 @@
 
 
 
-# l2 = list(s1)
-s1 = {8,9,7,5,15,89,12,18,16,21,51,2,15,45,48}
-print(s1)
-for numero in s1:
-    print(0 in s1)
+# # l2 = list(s1)
+# s1 = {8,9,7,5,15,89,12,18,16,21,51,2,15,45,48}
+# print(s1)
+# for numero in s1:
+#     print(0 in s1)
 
+
+# metodos uteis em set
+# add, update, clear e discard
+
+l1 = set()
+l1.add('Wellington') # add Só aceita um valor por vez 
+l1.add(1234567)
+l1.update(('Boa tarde', 1,2,5,5)) # tem que colocar aspas duplas para poder colocar + de 1 valor
+# l1.clear() # ele vai limpar o set 
+l1.discard('Boa tarde')
+l1.discard('Wellington') # serve para apagar valores
+print(l1)
