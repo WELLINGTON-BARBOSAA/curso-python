@@ -37,11 +37,25 @@
 # metodos uteis em set
 # add, update, clear e discard
 
-l1 = set()
-l1.add('Wellington') # add Só aceita um valor por vez 
-l1.add(1234567)
-l1.update(('Boa tarde', 1,2,5,5)) # tem que colocar aspas duplas para poder colocar + de 1 valor
-# l1.clear() # ele vai limpar o set 
-l1.discard('Boa tarde')
-l1.discard('Wellington') # serve para apagar valores
-print(l1)
+# l1 = set()
+# l1.add('Wellington') # add Só aceita um valor por vez 
+# l1.add(1234567)
+# l1.update(('Boa tarde', 1,2,5,5)) # tem que colocar aspas duplas para poder colocar + de 1 valor
+# # l1.clear() # ele vai limpar o set 
+# l1.discard('Boa tarde')
+# l1.discard('Wellington') # serve para apagar valores
+# print(l1)
+
+# Operadores úteis: 
+# união | união (union) - Une
+# intersecção & (intersection) - Itens presentes em ambos
+# diferença - Itens presentes apenas no set da esquerda
+# diferença simétrica ^ - Itens que não estão em ambos
+
+s1 = {1, 2, 3}
+s2 = {3, 2, 4}
+s3 = s1 | s2
+s3 = s1 & s2
+s3 = s1 - s2
+s3 = s1 ^ s2 # esse mostra o que não tem em ambos, a ordem nesse caso não faz diferença
+print(s3) 
