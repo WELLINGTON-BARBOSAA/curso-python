@@ -52,10 +52,10 @@
 # diferença - Itens presentes apenas no set da esquerda
 # diferença simétrica ^ - Itens que não estão em ambos
 
-s1 = {1, 2, 3}
-s2 = {3, 2, 4}
-s3 = s1 | s2
-s3 = s1 & s2
-s3 = s1 - s2
-s3 = s1 ^ s2 # esse mostra o que não tem em ambos, a ordem nesse caso não faz diferença
-print(s3) 
+# s1 = {1, 2, 3}
+# s2 = {3, 2, 4}
+# s3 = s1 | s2
+# s3 = s1 & s2
+# s3 = s1 - s2
+# s3 = s1 ^ s2 # esse mostra o que não tem em ambos, a ordem nesse caso não faz diferença
+# print(s3) 
