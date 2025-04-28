@@ -10,26 +10,26 @@ print('Calculando seu pace')
 # # Calcular o tempo de acordo com cada pace e mostrar na tela
 
 
-tempo = input('Insira seu tempo: ')
-distancia_km = input('Insira a distância: ')
-
-tempo_conv = float (tempo)
-distancia_km_conv = float (distancia_km)
-
-calculo_pace = tempo_conv/distancia_km_conv
-
-tempo_em_horas = tempo_conv / 60
-velocidade_media = distancia_km_conv/tempo_em_horas
-
-print(f'Seu pace é de : {calculo_pace:.2f} min/Km')
-print(f'E sua velocidade média é de: {velocidade_media:.2f} Km/h')
-
-
-
-# if tempo_conv.isinstance(tempo_conv, int, float) is False:
-#     print('Digite apenas numeros')
+while True:
+    try:
+        tempo = float (input('Digite seu tempo na corrida: '))
+        km = float(input('Digite a distância: '))
+        pace = tempo/km
+        print(f'Seu pace é de {pace:.2f} min/Km')
+        break
     
+    except ValueError:
+        print('Voce digitou algo errado, tente novamente')
 
-# if  distancia_km_conv is False:
-#     print ('Digite apenas numero')
+# tempo = float(input('Insira seu tempo: '))
+# distancia_km = float(input('Insira a distância: '))
 
+# calculo_pace = tempo/distancia_km
+
+# tempo_em_horas = tempo/60
+# velocidade_media = distancia_km/tempo_em_horas
+
+# print(f'Seu pace é de : {calculo_pace:.2f} min/Km')
+# print(f'E sua velocidade média é de: {velocidade_media:.2f} Km/h')
+
+    
