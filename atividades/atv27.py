@@ -10,9 +10,17 @@ sabendo que cada litro de tinta pinta uma area de 2m²'''
 # print(f'Será necessario {tinta}L de tinta para pintar area.')
 
 def area (altura, largura):
-    return altura * largura
+    return altura *  largura
 
-print(f'Sua area é de {area(5,5)}M²')
+# print(f'Sua area é de {area(5,5)}M²')
 
+while True:
+    try:
+        cal_altura = float(input('Digite a altura: '))
+        cal_largura = float(input('Digite a largura: '))
+        formula = area(cal_altura,cal_largura)
+        print(f'O calculo da area é de {formula:.2f} M²')
+        break
 
-# Meter um try e except para o usuario poder digitar o valor 
+    except Exception:
+            print('Voce não digitou numero, tente novamente')
