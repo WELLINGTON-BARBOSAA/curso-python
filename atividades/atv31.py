@@ -21,3 +21,20 @@ calcule e mostre o comprimento da hipotenusa'''
 # print(f'O valor da hipotenusa é de {hipotenusa:.2f}')
 
 'Fazer uma com funções e tratamento de exceções'
+'Tem como usar modulo com funções'
+
+
+def hipotenusa(c_oposto, c_adjacente):
+    return (c_oposto ** 2) + (c_adjacente **2) 
+
+while True:
+    try:
+        cateto_oposto = float(input('Digite o cateto oposto: '))
+        cateto_adjacente = float(input('Digite o cateto adjacente: '))
+        valor_hipotenusa = hipotenusa(cateto_oposto,cateto_adjacente)
+        print(f'Valor da hipotenusa é de {valor_hipotenusa:.2f}')
+        break
+
+    except Exception:
+        print("Você digitou algo errado")
+
