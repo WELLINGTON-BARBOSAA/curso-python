@@ -4,7 +4,7 @@ continue pedindo até que o usuário informe um valor válido. '''
 
 while True:
 
-    numero = int(input('Digite uma nota: '))
+    numero = float(input('Digite uma nota: '))
 
     if numero > 10: 
         print('Nota invalida, tente novamente')
