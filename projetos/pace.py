@@ -1,24 +1,17 @@
-print('Calculando seu pace')
+print('-'*30)
+print('CALCULADORA DE PACE')
+print('-'*30)
 
-#  Distancia
-#  Tempo 
-#  pace
-#  velocidade media
+def media (tempo, km):
+     return tempo / km
 
-# # calculo = tempo/distancia
-
-# # Calcular o tempo de acordo com cada pace e mostrar na tela
-
-
-while True:
+while True: 
     try:
-        tempo = float (input('Digite seu tempo na corrida: '))
-        km = float(input('Digite a distância: '))
-        pace = tempo/km
-        print(f'Seu pace é de {pace:.2f} min/Km')
+        time = float(input('Digite o tempo: '))
+        distancia = float(input('Digite a distancia percorrida: '))
+        pace = media(time, distancia)
+        print(f'Seu pace é de {pace:.2f} min/km')
         break
-    
-    except ValueError:
-        print('Voce digitou algo errado, tente novamente')
 
-# melhorar o codigo usando funções
+    except Exception:
+        print('Voce não digitou numeros')
