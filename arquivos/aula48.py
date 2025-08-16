@@ -77,3 +77,12 @@ lista_b = lista_a.copy() # Comando copy copia a lista original sem modificação
 lista_a [0] = 'Jose'
 print(lista_a)
 print(lista_b)
+
+
+# numeros = [1, 2, 3, 4, 5, 6, 7, 8]
+
+# def dividendo (x, y):
+#     return x / y
+
+# multi = [dividendo(numero, 2) for numero in numeros]
+# print(multi)
