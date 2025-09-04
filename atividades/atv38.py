@@ -4,7 +4,7 @@ A multa vai custar R$ 7,00 por km acima do limite'''
 
 vel_carro = int(input('Digite a velocidade do carro: '))
 multa = (vel_carro - 80) * 7
-print(f'Sua velocidade é de {vel_carro}Km/h')
+print(f'Sua velocidade é de {vel_carro}Km/hss')
 if vel_carro < 80 :
     print('Sua velocidade esta normal')
 
