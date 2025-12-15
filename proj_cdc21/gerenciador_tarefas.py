@@ -4,7 +4,6 @@ print('*' *50)
 
 tarefas = []
 
-# COLOCAR UM COMENTARIO EM CADA FUNCIONALIDADE DO PROGRAMA
 while True:
     print('MENU')
     print('Digite [1] para adicionar tarefa')
