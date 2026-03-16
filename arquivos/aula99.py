@@ -1,13 +1,21 @@
-from sys import path
+# from sys import path
+# https://stackoverflow.com/questions/2386714/why-is-import-bad
 
-import aula99_package.modulo #1
-from aula99_package import modulo #2
-from aula99_package.modulo import * # O all só funciona se for importado tudo --> * <--
-# não é uma boa pratica de programação
-# print(*path, sep='\n') # esse comando me mostra a pasta main do arquivo - /home/wellington/Área de Trabalho/curso_Python/arquivos
+# import aula99_package.modulo
+# from aula99_package import modulo
 
-print(soma_modulo(1,2)) 
-print(aula99_package.modulo.soma_modulo(1,2)) 
-print(modulo.soma_modulo(1,2)) 
+# print(modulo.soma_do_modulo(1, 2))
+# print(variavel)
+# print(nova_variavel)
+from aula99_package.modulo import fala_oi, soma_do_modulo
+# from aula99_package.modulo import fala_oi, soma_do_modulo
 
-print(variavel)
+print(__name__)
+fala_oi()
+# print(__name__)
+# fala_oi()
+
+from aula99_package import falar_oi, soma_do_modulo
+
+print(soma_do_modulo(2, 3))
+falar_oi()
