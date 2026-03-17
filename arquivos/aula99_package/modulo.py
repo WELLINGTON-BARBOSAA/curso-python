@@ -1,14 +1,7 @@
-__all__ = [
-    'variavel',
-    'soma_modulo',
-]
+#     'soma_do_modulo',
+#     'nova_variavel',
+# ]
+from aula99_package.modulo_b import fala_oi
+# from aula99_package.modulo_b import fala_oi
 
-variavel = 'alguma coisa'
-
-def soma_modulo(x,y):
-    return x + y
-
-
-
-# comando all só funciona se caso o usuario fazer o seguinte comando:
-# 
+variavel = 'Alguma coisa'
