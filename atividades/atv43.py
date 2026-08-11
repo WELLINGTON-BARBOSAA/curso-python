@@ -3,16 +3,21 @@ de seu aumento.
 Para salarios superiores as R$ 1.250,00, calcule o aumento de 10%
 Para os aumentos inferiores ou iguais, o aumento é de 15% '''
 
+VALOR_BASE = 1250.00
+
 nome = input('Digite seu nome: ')
 salario_func = float(input('Digite o valor do seu salario: '))
 
 aumento10 = (salario_func * 10) / 100
 aumento15 = (salario_func * 15) / 100
 
-if salario_func > 1250.00 :
+if salario_func > VALOR_BASE :
     print(f'{nome}, seu o valor do seu salario é de R$ {salario_func:.2f}')
     print(f'Mas com o aumento vai ficar no valor de R$ {aumento10 + salario_func:.2f}')
 
-elif salario_func <= 1250.00:
+elif salario_func <= VALOR_BASE:
     print(f'{nome}, seu salario é de R$ {salario_func:.2f}')
     print(f'Mas com o novo aumento fica R$ {aumento15 + salario_func:.2f}')
+
+else:
+    print('Você digitou alguma coisa errada')
